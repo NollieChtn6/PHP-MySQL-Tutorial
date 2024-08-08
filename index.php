@@ -34,7 +34,7 @@ $recipesList = [
     <ul>
       <?php for ($lines = 0; $lines <= 3; $lines++): ?>
       <li>
-        <?php echo $recipesList[$lines][0] . ' (from ' . $recipesList[$lines][1] . ')'; ?>
+        <?php echo $recipesList[$lines]['title'] . ' (from ' . $recipesList[$lines]['author'] . ')'; ?>
       </li>
       <?php endfor; ?>
     </ul>
