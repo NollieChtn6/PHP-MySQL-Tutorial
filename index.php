@@ -1,11 +1,23 @@
 <?php 
-// Recipe: title, author, isActive
+// Recipe: title, author
 $recipesList = [
-  ["Cassoulet", "Yvette M.", true],
-  ["Pancakes", "Sandrine D.", true],
-  ["Mille-feuilles à la vanille", "Maryse F.", true],
-  ["Pain cocotte", "Sophie P.", true],
-    ]
+  [
+    "title" => "Cassoulet",
+    "author" => "Yvette M.", 
+  ],
+  [
+    "title" => "Pancakes au citron",
+    "author" => "Sandrine D.", 
+  ],
+  [
+    "title" => "Mille-feuilles à la vanille",
+    "author" => "Maryse G.", 
+  ],
+  [
+    "title" => "Pain cocotte",
+    "author" => "Sophie P",
+  ]
+]
 ?>
 
 <html>
